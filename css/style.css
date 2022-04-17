@@ -4,21 +4,91 @@
 
 /* Box Model Hack */
 * {
+	font-family: 'Permanent Marker',
+	cursive;
 	box-sizing: border-box;
+	text-align: center;
+	font-size: 2rem;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-img {
+img,
+iframe{
 	display: block;
 	margin: 0 auto;
+	max-width: 900px;
+
+}
+
+
+
+
+
+body {
+	background-color: rgb(0, 0, 0);
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body h1{
+	color: rgb(0, 0, 255);
+	font-weight:bold;
+	padding: 5px 10px 30px 10px;
+	margin: 50px 5px 10px 5px;
+	font-family: 'Permanent Marker',
+	cursive;
+	font-size: 4vmax;
+	
+	}
+	
+
+
+body h1 span{
+	color: aquamarine;
+	font-size: 4vmax;
+	font-family: 'Permanent Marker',
+	cursive;
+	
+
+	
+}
+
+input,
+button {
+	padding: 20px;
+	border-radius: 20px;
+	font-size: 2vmax;
+	width: max-content;
+}
+
+button{
+	background-color: aquamarine;
+	}
+
+
+.explanation
+ {
+	color: rgb(254, 254, 254);
+	line-height: 2.5rem;
+	margin: 0 80px;
+	font-family: 'Oswald',
+	sans-serif;
+
+
 }
 
 .hidden {
 	display: none;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.title{
+	color: rgb(255, 255, 255);
+}
+
+i{
+	color: rgb(243, 227, 6);
+}
+
