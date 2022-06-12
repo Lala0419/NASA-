@@ -1,6 +1,6 @@
 
 <div id='top'></div>
-<h1>NASA - API </h1>
+<h1>Get A Star </h1>
 <br>
 <br>
 <div align="center">
