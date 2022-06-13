@@ -11,7 +11,7 @@
 
 Simple API app to get uses the NASA APOD API and presents the best astrophotographic photo of NASA.
 
-**Link to project:** https://nasa-api-nm.netlify.app
+**Link to project:** [Get A Star](https://nasa-api-nm.netlify.app)
 
 </div>
 
